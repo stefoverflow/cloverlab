@@ -1,0 +1,12 @@
+.posts-page {
+  padding: 1rem 5rem;
+
+  &__content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    &__error {
+      color: red;
+    }
+  }
+}

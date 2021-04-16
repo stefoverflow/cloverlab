@@ -1,0 +1,50 @@
+.post-listing-item {
+  margin: 2rem 0;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: row;
+
+  &__image {
+    width: 400px;
+    background: #c4c4c4;
+  }
+
+  &__text {
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    &__rendered {
+      margin-bottom: 1rem;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 37px;
+      color: #000000;
+    }
+
+    &__content {
+      margin-bottom: 1rem;
+      font-family: Roboto;
+    }
+
+    &__button {
+      background: #4ead43;
+      width: fit-content;
+      cursor: pointer;
+
+      &__text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        color: #ffffff;
+      }
+    }
+  }
+}
